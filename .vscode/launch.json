@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build and debug project",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\build\\Sunshine.exe",
+      "args": [
+        "${workspaceFolder}\\build\\config\\sunshine.conf"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}\\build",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      //"preLaunchTask": "Build project"
+    }
+  ]
+}

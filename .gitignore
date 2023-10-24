@@ -1,7 +1,9 @@
 build
 cmake-build*
 .DS_Store
-.vscode
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
 .vs
 *.swp
 *.kdev4
